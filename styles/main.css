@@ -117,7 +117,7 @@
   font-family: var(--font-family);
   
   background-color: var(--background-color);
-  height: 1108px;
+  height: ;
   width: 100%;
   color: var(--primary-color);
   display: grid;
@@ -125,6 +125,7 @@
   grid-template-rows: 113px;
   align-items: center;
   justify-items: center;
+  padding-top: 20%;
  
   
    
@@ -133,7 +134,7 @@
 }
 
 /*
-.module-1__div--h3 {
+. {
  grid-column: 1;
  width: 322px;
 }*/
@@ -150,6 +151,9 @@
   text-align: center;
   min-width: 322px;
   align-self: center;
+  width: 70%;
+  padding-bottom: 15%;
+  
 
 }
 
@@ -167,8 +171,14 @@
   font-size: var(--font-16);
   text-align: center;
   height: 96px;
- 
+}
 
+.module-1__article--h3 {
+  font-size: var(--font-20);
+  font-weight: var(--font-weight);
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 20%;
 }
 
 .module-1__article--2 {
@@ -200,6 +210,7 @@
   align-items: center;
   justify-content: center;
   height: 325px;
+  
 }
 
 .moduñe-2__h2 {
@@ -209,6 +220,7 @@
 
 .module-2__text {
   font-size: var(--font-14);
+  padding-top: 2%;
 }
 
 
@@ -216,7 +228,7 @@
 .module-2__enlace {
   font-size: var(--font-16);
   font-weight: var(--font-weight);
-  padding-top: 17px;
+  padding-top: 15%;
   text-decoration: underline;
 }
 
@@ -229,7 +241,7 @@ a:visited {
 /* MÓDULO  3 -------------------------------------------------------------*/
 
 .module-3__contenedor {
-  
+  height: 645px;
   display: flex;
   flex-direction: column;
    justify-content: center;
@@ -243,7 +255,7 @@ a:visited {
 
 
 .module-3__section--1 {
-  height: 339px;
+  height: 55%;
  
   font-family: var(--font-family);
   color: var(--primary-color);
@@ -266,6 +278,8 @@ a:visited {
 
 .module-3__text {
   font-size: var(--font-14);
+  padding-bottom: 10%;
+  padding-top: 5%;
 
 }
 
@@ -276,7 +290,6 @@ a:visited {
   height: 48px;
   padding: 12px 24px;
   background-color: var(--primary-color);
-  
   border: none;
 }
 
@@ -298,7 +311,7 @@ a:visited {
 
 .module-3__section--2 {
   
-height: 304px;
+height: 45%;
  
 
 }
@@ -306,10 +319,6 @@ height: 304px;
 
 .module-3__imagen {
 width: 100%;
-object-fit: cover;
-
-
-
 }
 
 
