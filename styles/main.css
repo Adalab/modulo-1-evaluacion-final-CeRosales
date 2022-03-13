@@ -37,7 +37,7 @@
 /* HEADER*/
 
 .header {
-  height: 20&;
+  height: 20%;
   background-size: cover;
   background-image: url(../images/header.jpg);
   background-position: 50% 50%;
@@ -207,7 +207,7 @@
   
 }
 
-.moduñe-2__h2 {
+.module-2__h2 {
   font-size: var(--font-24);
   font-weight: var(--font-weight);
 }
@@ -249,8 +249,7 @@ a:visited {
 
 
 .module-3__section--1 {
-  height: 55%;
- 
+  height: 50%;
   font-family: var(--font-family);
   color: var(--primary-color);
   display: flex;
@@ -307,7 +306,8 @@ a:visited {
   
 height: 304px;
 width: 100%;
- 
+background-image: url(../images/creando-espacios.jpg);
+background-size:cover;
 
 }
 
@@ -376,9 +376,9 @@ padding-left: 30%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row: 1fr 1fr;
   padding-top: 0;
-  grid-row-gap: ;
   padding-bottom: 10%;
   padding-top: 5%;
+  
   }  
 
   .header {
@@ -409,14 +409,103 @@ padding-left: 30%;
   font-size: var(--font-30);
 }
 
+.module-3__section--1 {
+  height: 339px;
+}
+
+.module-3__section--2 {
+  height: 474px;
+}
+
 }
 
 
 /* 1200    ----------------------------------------------- */
 
-
-
 @media all and (min-width: 1200px) {
+  .imagen-hamburguesa {
+    display: none;
+  }
+   .header__nav--desktop {
+    display:flex;
+    align-items: flex-start;
+    position: fixed;
+    z-index: 999;
+    padding-left: 15%;
+    padding-top: 5%;
+    font-size: var(--font-16);
+}
+  .contenedor-logo {
+    padding-top: 3%;
+  }
+
+  .header__li {
+    padding-right: 10%;
+  }
+
+.module-1 {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  height: 611px;
+}
+
+.module-1__h3 {
+  grid-column: 2;
+  font-size: var(--font-36);
+  min-width: 799px;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+.module-2__section {
+  height: 400px;
+}
+
+.module-2__h2 {
+  font-size: var(--font-36);
+}
+
+.module-2__text {
+  font-size: var(--font-16);
+}
+
+.module-3__contenedor {
+  flex-direction: row;
+  
+}
+
+.module-3__section--1 {
+width: 50%;
+}
+.module-3__section--2 {
+height: 100%;
+width: 50%;
+background-image: url(../images/creando-espacios.jpg);
+background-size:cover;
+}
+
+.module-3__imagen {
+  100%;
+}
+}
+
+
+@media all and (max-width: 1200px) {
+  .header__nav--desktop {
+  display: none;
+
+}
+
+
+/*
+@media all and (min-width: 1200px) {
+.header__nav--desktop {
+  display: flex;
+ 
+}
+
+
+/*
   .module-3__contenedor {
     flex-direction: row;
 }
@@ -427,17 +516,7 @@ padding-left: 30%;
 
 
 
-@media all and (min-width: 1200px) {
-  .imagen-hamburguesa {
-    display: none;
-  }
-}
 
-@media all and (max-width: 1200px) {
-  .header__nav--desktop {
-  display: none;
-
-}
 
 
 
